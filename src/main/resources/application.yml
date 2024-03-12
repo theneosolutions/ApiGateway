@@ -17,6 +17,7 @@ spring:
               - GET
               - DELETE
               - OPTIONS
+              - PATCH
       routes:
         - id: CMS-SERVICE
           uri: lb://CMS-SERVICE
