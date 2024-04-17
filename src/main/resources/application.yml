@@ -43,7 +43,6 @@ spring:
           uri: lb://NOTIFICATION-SERVICE
           predicates:
             - Path=/api/v1/sms/**
-            - Path=/api/v1/sms/**
 
 eureka:
   client:
